@@ -1,6 +1,6 @@
 # Processing_Intellij
 
-За допомогою чього проекту можна працювати із програмою Processing в Intellij IDEA
+За допомогою цього проекту можна працювати із програмою Processing в Intellij IDEA
 
 В класі Features реалізований метод drawGrid(step, absoluteStep), який малює сітку на полотно
 ```java
