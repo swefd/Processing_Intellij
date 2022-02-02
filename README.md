@@ -14,7 +14,7 @@
 ## Особливості роботи в Intellij
 
 ###  1) ООП
-Для роботи з класами потрібно робити агрегацію, тобто передавати в конструктор контекст (об'єкт) класу Main, який наслідується від `PApplet` та запускається як головний.
+Для роботи з класами потрібно робити агрегацію, тобто передавати в конструктор контекст (об'єкт) класу `Main`, який наслідується від `PApplet` та запускається як головний.
 
 Приклад агрегації
 
@@ -111,7 +111,7 @@ With this project you can work with the program `Processing` in` Intellij IDEA`.
 ## Specifics of work in Intellij
 
 ###  1) OOP
-To work with classes, you need to do aggregation, ie pass the context (object) of the Main class to the constructor, which is inherited from `PApplet` and started as the main one.
+To work with classes, you need to do aggregation, ie pass the context (object) of the `Main` class to the constructor, which is inherited from `PApplet` and started as the main one.
 
 Example of aggregation
 
