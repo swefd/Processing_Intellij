@@ -3,9 +3,9 @@ package lessonColor;
 import processing.core.PApplet;
 
 public class Gradient {
-    PApplet context;
-    int c1;
-    int c2;
+    private final PApplet context;
+    private final int c1;
+    private final int c2;
 
     public Gradient(PApplet context, int c1, int c2) {
         this.context = context;
