@@ -39,15 +39,15 @@ public class Gradient {
         this.c2 = c2;  
     }
 
-	public void display(){  
-	    context.noFill();  
-         for (int i = 0; i < context.height; i++) {  
-	        float inter =  PApplet.map(i, 0, context.height, 0, 1);  
-		   int color = context.lerpColor(c1, c2, inter);  
-	        context.stroke(color);  
-             context.line(0, i, context.width, i);  
-		}
-	}
+    public void display(){
+        context.noFill();
+        for (int i = 0; i < context.height; i++) {
+            float inter =  PApplet.map(i, 0, context.height, 0, 1);
+            int color = context.lerpColor(c1, c2, inter);
+            context.stroke(color);
+            context.line(0, i, context.width, i);
+        }
+    }
 }
 ```
 
@@ -136,15 +136,15 @@ public class Gradient {
         this.c2 = c2;  
     }
 
-	public void display(){  
-	    context.noFill();  
-         for (int i = 0; i < context.height; i++) {  
-	        float inter =  PApplet.map(i, 0, context.height, 0, 1);  
-		   int color = context.lerpColor(c1, c2, inter);  
-	        context.stroke(color);  
-             context.line(0, i, context.width, i);  
-		}
-	}
+    public void display(){
+        context.noFill();
+        for (int i = 0; i < context.height; i++) {
+            float inter =  PApplet.map(i, 0, context.height, 0, 1);
+            int color = context.lerpColor(c1, c2, inter);
+            context.stroke(color);
+            context.line(0, i, context.width, i);
+        }
+    }
 }
 ```
 
