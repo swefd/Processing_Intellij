@@ -29,14 +29,14 @@ public class MainColor extends PApplet {
 > Gradient.java -- Клас, який зноходиться в цьому самому пакеті.
 ```java
 public class Gradient {  
-    PApplet context;  
-    int c1;  
-    int c2;
-    
-    public Gradient(PApplet context, int c1, int c2) {  
-        this.context = context;  
-        this.c1 = c1;  
-        this.c2 = c2;  
+    private final PApplet context;
+    private final int c1;
+    private final int c2;
+
+    public Gradient(PApplet context, int c1, int c2) {
+        this.context = context;
+        this.c1 = c1;
+        this.c2 = c2;
     }
 
     public void display(){
@@ -126,14 +126,14 @@ public class MainColor extends PApplet {
 > Gradient.java --   A class that is in the same package.
 ```java
 public class Gradient {  
-    PApplet context;  
-    int c1;  
-    int c2;
-    
-    public Gradient(PApplet context, int c1, int c2) {  
-        this.context = context;  
-        this.c1 = c1;  
-        this.c2 = c2;  
+    private final PApplet context;
+    private final int c1;
+    private final int c2;
+
+    public Gradient(PApplet context, int c1, int c2) {
+        this.context = context;
+        this.c1 = c1;
+        this.c2 = c2;
     }
 
     public void display(){
