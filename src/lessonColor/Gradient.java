@@ -2,6 +2,7 @@ package lessonColor;
 
 import processing.core.PApplet;
 
+
 public class Gradient {
     private final PApplet context;
     private final int c1;
