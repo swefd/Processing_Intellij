@@ -34,6 +34,7 @@ public class Example extends PApplet {
         Наприклад:
         PApplet.main("пакет.НазваКласу");
         */
+        print("aaa");
         PApplet.main("com.robocode.Example");
 
     }

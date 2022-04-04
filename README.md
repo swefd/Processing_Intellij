@@ -6,6 +6,7 @@
 
 # About_UA
 
+Потребує Java 8
 
 За допомогою цього проекту можна працювати із програмою `Processing` в `Intellij IDEA`.
 По своїй суті, це просто шаблон із певними фішками для більш зручної роботи та навчання із Processing.
@@ -105,6 +106,8 @@ drawGrid(int step, int absoluteStep);
 
 
 # About_EN
+Java 8 is required!
+
 With this project you can work with the program `Processing` in` Intellij IDEA`. In essence, it's just a template with certain features for more convenient work and learning with Processing.
 
 
