@@ -45,6 +45,10 @@ public class Features {
             }
             c.line(0,w, c.width,w);
         }
+
+        c.fill(0);
+        c.stroke(0);
+        c.strokeWeight(1);
     }
 
 
