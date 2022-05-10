@@ -10,18 +10,27 @@ public class ${NAME} extends PApplet{
 
     // Метод для налаштувань програми
     public void settings(){
-        size(500, 500);
+        size(500, 500); // Розмір вікна
     }
 
 
     // Метод для одноразового малювання при запуску програми
     public void setup(){
         background(255);
+
+        // Пиши свій код тут :)
+
+
     }
 
     // Медод для малювання в циклі
     public void draw(){
         feature.drawGrid(10, 50); //Малювання сітки
+
+        // Пиши свій код тут :)
+
+
+
     }
 
 

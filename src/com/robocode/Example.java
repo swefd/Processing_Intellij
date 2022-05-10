@@ -8,22 +8,18 @@ public class Example extends PApplet {
 
     //Метод для налаштувань програми
     public void settings(){
-        size(500, 500);
+        size(500, 700);
     }
 
 
     //Метод для одноразового малювання при запуску програми
     public void setup(){
-
-
         background(255);
     }
 
-    //Медод для малювання в циклі
+    //Метод для малювання в циклі
     public void draw(){
         feature.drawGrid(10, 50);
-
-
     }
 
 
@@ -38,8 +34,5 @@ public class Example extends PApplet {
         PApplet.main("com.robocode.Example");
 
     }
-
-
-
 
 }
